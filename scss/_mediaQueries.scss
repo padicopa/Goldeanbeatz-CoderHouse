@@ -1,0 +1,122 @@
+@media only screen and (max-width: 576px){
+    /*index*/
+    
+    header{
+        width: 120%;
+    }
+    .navbar-expand{
+        width: 100%;
+    }
+
+    .logo{
+        width: 54%;
+    margin-left: -10px;
+    }
+
+    .navbar-expand .navbar-nav{
+        width: 60%;
+    }
+    .li{
+        width: 66px;
+    }
+    .nav-item{
+        width: 125px;
+    }
+    
+    .container-fluid{
+        flex-direction: column;
+    }
+
+
+    .contenedor_buscador {
+        margin-top: -18px;
+        width: 10%;
+    }
+    .navbar-expand .navbar-collapse{
+        width: 85%;
+    }
+
+    .form-control .me-2{
+        width: 50%;
+    }
+    .contenedor_buscador{
+        margin-top: 100px;
+    }
+    .me-2 {
+        width: 190px;
+        margin-left: -475px;
+        margin-top: 185px;
+    }
+    .btn {
+        width: 190px;
+        margin-top: 185px;
+    }
+    .titulo{
+        width:110%;
+    }
+
+    .contenedor-youtube{
+        grid-template-columns: inherit;
+    }
+
+    .container-grid-table {
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        justify-items: center;
+        align-items: flex-start;
+        margin-inline: 28px;
+        cursor: default;
+        font-size: 20px;
+        height: 1px;
+    }
+
+    .col{
+        font-weight: bold;
+    }
+    .col1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        text-align: center;
+        background-color: rgb(102 94 95);
+        color: white;
+        cursor: default;
+    }
+
+    .reproductor {
+        width: 153px;
+    }
+    .reproductor audio {
+        margin-left: 3px;
+        width: 147px;
+        height: 15px;
+        margin-bottom: 18px;
+    }
+    .descarga {
+        background-color: #f34a4a;
+        margin-left: 9px;
+        width: 40%;
+    }
+
+
+
+    /*daw*/
+    
+
+    .container-daw {
+        grid-template-columns: inherit;
+    }
+
+    /*proyectos*/
+    h1{
+        font-size: 35px;
+        letter-spacing: 12px;
+    }
+
+    /*cursos*/
+    .grid-canal-youtube {
+        grid-template-columns: inherit;
+    }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https: //fonts.googleapis.com/css2? familia= Fjalla+Uno &family= Langosta & family= Oswald:wght@500;700 & family= Yellowtail & display=swap" rel="stylesheet">
+
+    <link href="preconectar" href="https://fonts.googleapis.com">
+    <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="paralax-contactos">    
+    <nav class="navbar navbar-expand">
+        <div class="container-fluid">
+            <a class="navbar" href="#"><img class="logo" src="../assets/logo.png" alt=""></a>
+            <button 
+            class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./DAW.html">DAW</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./artistas.html">Artistas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./cursos.html">Cursos</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contactos</a>
+                    </li>
+
+                
+                    
+                <li class="nav-item dropdown">
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+            
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscá tu golden Beat"aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+</header>
+        <main section class="flex__container_main">
+            
+            <form class="container__formulario" action="procesar.php" name="contacto" method="post"> 
+                <fieldset>
+                    <legend>¡Contactanos!</legend>
+                    <br>
+                    <br>
+                    <label>Nombre:
+                        <input type="text" name="nombre" placeholder="Michael" required>
+                    </label>
+                    <br>
+                    <label>Apellido:
+                        <input type="text" name="apellido" placeholder="Jordan" required>
+                    </label>
+                    <br>
+                    <label>Email:
+                        <input type="email" name="email" placeholder="@gmail.com" required>
+                    </label>
+                    <br>
+                    <br>
+                    <h4>Sexo:</h4>
+                    <label for="sexo">Mujer</label>
+                    <input type="radio" name="sexo" value="mujer">
+                    <label for="sexo">Hombre</label>
+                    <input type="radio" name="sexo" value="hombre">
+                    <label for="sexo">Otro</label>
+                    <input type="radio" name="sexo" value="otro">
+                    <br>
+                    <br>
+                    <br>
+                    <h4>Plataforma mas utilizada</h4>
+                    <p>
+                        <label for="Plataforma">YouTube</label>
+                        <input type="checkbox" name ="YouTube" value="Youtube">
+                    </p>
+                    <p>
+                        <label for="Plataforma">Spotify</label>
+                        <input type="checkbox" name ="Limitado" value="Spotify">
+                    </p>
+                    <p>
+                        <label for="Plataforma">Soundcloud</label>
+                        <input type="checkbox" name ="Soundcloud" value="Soundcloud">
+                    </p>
+                    <br>
+                    <h4>Beat de interes</h4>
+                    <select name="Beat de interes">
+                    <option value="Trap">...</option>
+                    <option value="Trap">Trap</option>
+                    <option value="Reggaeton">Reggaeton</option>
+                    <option value="Hip Hop">Hip Hop</option>
+                    <option value="reggae">Reggae</option>
+                    <option value="Rock">Rock</option>
+                    <option value="R&B">R&b</option>
+                    <option value="Otros">Otros</option>
+                    </select>
+                    <br>
+                    <br>
+                    <h4>Dejanos tu comentario</h4>
+                    <br>
+                    <br>
+                    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                    <p>
+                        <button type="submit">Enviar</button>
+                    </p>
+                    <p>
+                        <button type="reset">Reseteo</button>
+                    </p>
+                </fieldset>
+            </form>
+            
+
+            <h5>¿Donde encontrarnos?</h5>
+            <br>
+            <section class="ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.493309446803!2d-58.39669747866237!3d-34.60447780530171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea8e4a9883%3A0x4838cf566af09e65!2sEstudio%20de%20Grabaci%C3%B3n%20La%20Nave%20de%20Oseberg!5e0!3m2!1ses-419!2sar!4v1658510337768!5m2!1ses-419!2sar"style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </section>
+            
+            <footer>
+                <div class="container__footer">
+                    <div class="box__footer">
+                        <div class="logo">
+                            <img src="../assets/logo.png" alt="">
+                        </div>
+                        <div class="terms">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus exercitationem tempora sint doloremque rerum nostrum repellat veniam, dolores fugit. Molestiae, maiores consectetur. Alias a magnam hic delectus quidem repudiandae.</p>
+                        </div>
+                    </div>
+                    <div class="box__footer">
+                        <h3>Comunidades</h3>
+                        <a href="#">Para artistas</a>
+                        <a href="#">Desarrolladores</a>
+                        <a href="#">Publicidad</a>
+                        <a href="#">Inversionistas</a>
+                    </div>
+                    <div class="box__footer">
+                        <h3>Compañia</h3>
+                        <a href="#">Acerca de</a>
+                        <a href="#">Empleo</a>
+                        <a href="#">For the Record</a>
+                        <a href="#">Contactos</a>
+                    </div>
+                    <div class="box__footer">
+                        <h3>Redes Sociales</h3>
+                        <a href="https://www.instagram.com/">Instagram<i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/">Facebook<i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/">Youtube<i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.spotify.com/">Spotify<i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </div>
+                <div class="box__copyright">
+                    <hr>
+                    <p>Todos los derechos reservados 2022 <b>©</b><b>GoldeanBeatz</b></p>
+                </div>
+            </footer>
+            <script src="https://kit.fontawesome.com/d2c938d7a6.js" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
