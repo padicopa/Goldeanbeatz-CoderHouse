@@ -66,7 +66,7 @@ header {
 }
 
 .btn:hover {
-  background-color: rgb(15, 14, 14);
+  background-color: #0f0e0e;
   color: white;
   border-color: #000000;
   text-decoration: none;
@@ -207,7 +207,6 @@ h2 {
   justify-content: center;
   text-decoration: none;
 }
-
 h2:hover {
   color: rgb(217, 217, 223);
 }
@@ -382,16 +381,19 @@ a {
 }
 
 h6 {
-  font-family: "Nunito", sans-serif;
+  color: rgb(248, 237, 156);
+  text-align: center;
   font-size: 39px;
   letter-spacing: 8px;
-  text-align: center;
+}
+
+h6 {
   margin-top: 807px;
   cursor: default;
-  color: rgb(248, 237, 156);
   display: flex;
   justify-content: center;
   text-decoration: none;
+  font-family: "Nunito", sans-serif;
 }
 
 .carousel-item.active {
