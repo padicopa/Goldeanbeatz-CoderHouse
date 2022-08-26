@@ -82,12 +82,13 @@ header {
   display: flex;
   justify-content: center;
   width: 99%;
-  height: 93vh;
+  height: 60vh;
 }
 
 h1 {
   font-family: "Nunito", sans-serif;
   font-size: 50px;
+  font-weight: bold;
   letter-spacing: 15px;
   text-align: center;
   margin-bottom: 38px;
@@ -102,14 +103,17 @@ h1:hover {
 }
 
 .p_index {
+  width: 100%;
   color: rgb(248, 237, 156);
-  font-family: "Nunito", sans-serif;
-  font-size: 1.4rem;
-  letter-spacing: 5px;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 4px;
   text-align: center;
   display: flex;
   justify-content: center;
   text-decoration: none;
+  padding: 160px;
+  padding-top: 65px;
 }
 
 .animacionH1 {
@@ -120,7 +124,63 @@ h1:hover {
   animation-timing-function: ease-out;
 }
 
+.titulo-predeterminado{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  margin-bottom: 85px;
+  letter-spacing: 15px;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 45px;
+  font-variant: all-small-caps;
+  color: white;
+  background-color: #ededed12;
+}
+
+.card{
+  background-color: #000000;
+  margin: 5px;
+}
+.card-header-index {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+.card-flex{
+  display: flex;
+  justify-content: center;
+  height: 190px;
+  width: 100%;
+}
+
+.card-text:last-child {
+  margin-inline: 5px;
+  margin-bottom: 0;
+  color: wheat;
+}
+.card-body-index {
+  padding: 34px;
+  text-align: center;
+}
+
+.texto-index{
+  width: 100%;
+  color: rgb(248, 237, 156);
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 120px;
+  margin-bottom: 100px;
+}
+
+
 .contenedor-youtube {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -128,7 +188,6 @@ h1:hover {
 }
 
 .youtube1, .youtube8, .youtube7, .youtube6, .youtube5, .youtube4, .youtube3, .youtube2 {
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease;
   height: 315px;
   border-radius: 30px;
@@ -169,8 +228,10 @@ h1:hover {
 }
 
 iframe {
-  border-radius: 30px;
-  height: 315px;
+  border-radius: 22px;
+  height: 225px;
+  margin-top: 180px;
+
 }
 
 .estilo-p-index {
@@ -185,18 +246,43 @@ iframe {
   font-weight: 300;
 }
 
+.container-button-beat{
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.boton-comprar-beat{
+  width: 100%;
+  background-color: rgb(0 0 0 / 60%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  letter-spacing: 3px;
+  margin-inline: 20px;
+  margin-bottom: 20px;
+}
+
+.boton-comprar-beat:hover {
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+}
+
 .titulo2 {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 27.2rem;
-  margin-bottom: 98px;
+  margin-top: 9.1rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #00000038;
+  color: white;
 }
 
 h2 {
   font-family: Helvetica Neue, sans-serif;
   font-size: 38px;
-  letter-spacing: 14px;
+  letter-spacing: 12px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 38px;
@@ -217,13 +303,14 @@ h2:hover {
   grid-template-rows: repeat(7, 1fr);
   justify-items: center;
   align-items: flex-start;
+  margin-bottom: 20px;
   margin-inline: 40px;
   grid-row-gap: 0.1em;
   cursor: default;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
-  margin-bottom: -48px;
+  margin-bottom: -30px;
 }
 
 .col1 {
@@ -234,21 +321,50 @@ h2:hover {
   font-size: 15px;
   text-align: center;
   font: bold;
-  background-color: #665e5f;
+  background-color: #00000038;
   color: white;
-  cursor: default;
 }
 
-.col {
+.col3 {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font: bold;
+  background-color: #00000038;
+  color: white;
+}
+
+.coll {
   display: flex;
   justify-content: center;
   width: 99%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   text-align: center;
-  background-color: rgb(224, 215, 215);
-  color: black;
-  cursor: default;
+  color: white;
+  background-color: #00000038;
+}
+
+.row3{
+  background-color: #ededed12;
+  margin: 140px;
+}
+.stretched{
+  text-decoration: none;
+  color: rgb(105, 102, 102);
+}
+.stretched-link:hover{
+  color: rgb(255, 255, 255);
+}
+
+.titulo3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20.1rem;
+  margin-bottom: 80px;
+  text-transform: uppercase;
 }
 
 .descarga {
@@ -388,13 +504,27 @@ h6 {
 }
 
 h6 {
-  margin-top: 807px;
+  margin-top: 435px;
   cursor: default;
   display: flex;
   justify-content: center;
   text-decoration: none;
   font-family: "Nunito", sans-serif;
 }
+
+
+.estilo-p-daw {
+  margin-top: -70px;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 270px;
+  cursor: default;
+  color: rgb(237, 237, 237);
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
 
 .carousel-item.active {
   display: flex;
@@ -439,16 +569,6 @@ h6 {
   margin-top: 500px;
 }
 
-.estilo-p-daw {
-  font-size: 1.4rem;
-  text-align: center;
-  margin-bottom: 360px;
-  cursor: default;
-  color: rgb(237, 237, 237);
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
 
 .estilo-p-daw p {
   width: 80%;
@@ -470,7 +590,7 @@ h6 {
 }
 
 .estilo-p-ableton:hover {
-  background-color: rgb(59, 59, 59);
+  background-color: #897a7a3b;
 }
 
 .estilo-p-cubase {
@@ -489,7 +609,7 @@ h6 {
 }
 
 .estilo-p-cubase:hover {
-  background-color: rgb(59, 59, 59);
+  background-color: #897a7a3b;
 }
 
 .estilo-p-fl {
@@ -508,7 +628,7 @@ h6 {
 }
 
 .estilo-p-fl:hover {
-  background-color: rgb(59, 59, 59);
+  background-color: #897a7a3b;
 }
 
 .estilo-p-protools {
@@ -527,7 +647,7 @@ h6 {
 }
 
 .estilo-p-protools:hover {
-  background-color: rgb(59, 59, 59);
+  background-color: #897a7a3b;
 }
 
 .estilo-p-logic {
@@ -546,7 +666,7 @@ h6 {
 }
 
 .estilo-p-logic:hover {
-  background-color: rgb(59, 59, 59);
+  background-color: #897a7a3b;
 }
 
 .estilo-p-studio {
@@ -565,7 +685,7 @@ h6 {
 }
 
 .estilo-p-studio:hover {
-  background-color: rgb(59, 59, 59);
+  background-color: #897a7a3b;
 }
 
 .container-daw {
@@ -602,26 +722,33 @@ h6 {
 
 .boton-compra {
   width: 100%;
-  background-color: rgba(5, 150, 253, 0.2117647059);
+  background-color: rgb(0 0 0 / 60%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+  letter-spacing: 3px;
+  margin-inline: 20px;
+  margin-bottom: 20px;
 }
 
 .boton-prueba {
   width: 100%;
-  background-color: rgba(5, 150, 253, 0.2117647059);
+  background-color: rgb(0 0 0 / 60%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
 }
 
 .boton-compra:hover {
   background-color: #ffffff;
   color: black;
+  font-weight: bold;
 }
 
 .boton-prueba:hover {
   background-color: #ffffff;
   color: black;
+  font-weight: bold;
 }
 
 #id {
@@ -644,12 +771,163 @@ h6 {
   text-align: center;
 }
 
-/*proyectos*/
+/*artistas*/
 .paralax-artistas {
   min-height: 100vh;
   background: linear-gradient(rgba(78, 77, 77, 0.4), rgba(15, 15, 15, 0.75)), url(../assets/fondo-artistas.jpg) no-repeat center center fixed;
   background-size: cover;
 }
+
+
+.titulo-predeterminado-artistas2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 214px;
+  letter-spacing: 15px;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 45px;
+  font-variant: all-small-caps;
+  color: white;
+  background-color: #ededed12;
+}
+.titulo4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 19.1rem;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+.contenedor-tips{
+  display: flex;
+  justify-content: center;
+}
+.card-artistas{
+  color: wheat;
+  background-color: black;
+  margin: 20px;
+
+}
+.card-img-top-artistas {
+  width: 100%;
+}
+.card-title-artistas{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.card-text-artistas{
+  padding: 5px;
+  text-align: center;
+}
+.btn_artistas{
+  display: flex;
+  justify-content: center;
+  color: rgb(205 198 198);
+  background-color: rgb(26 21 21);
+  text-decoration: none;
+}
+.btn_artistas:hover{
+color: white;
+background-color: rgb(49, 41, 41);
+}
+
+.titulo-predeterminado-artistas3{
+  display: flex;
+  justify-content: center;
+  margin: 235px;
+  margin-bottom: 20px;
+  letter-spacing: 15px;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 45px;
+  font-variant: all-small-caps;
+  color: white;
+  background-color: #ededed12;
+}
+.container-grid-table-artistas {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  justify-items: center;
+  margin-inline: 40px;
+  grid-row-gap: 0.1em;
+  cursor: default;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: -48px;
+}
+
+.container-grid-table-artistas .col1 {
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font: bold;
+  background-color: #665e5f;
+  color: white;
+  cursor: default;
+}
+
+.container-grid-table-artistas .col {
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(224, 215, 215);
+  color: black;
+  cursor: default;
+}
+
+
+.container-grid-table-artistas-mundo{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  justify-items: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-inline: 40px;
+  grid-row-gap: 0.1em;
+  cursor: default;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.container-grid-table-artistas-mundo .col1 {
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font: bold;
+  background-color: #665e5f;
+  color: white;
+  cursor: default;
+}
+
+.container-grid-table-artistas-mundo .col {
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(224, 215, 215);
+  color: black;
+  cursor: default;
+}
+
 
 /*Cursos*/
 .paralax-cursos {
@@ -662,7 +940,70 @@ h6 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  margin-bottom: 40px;
 }
+
+
+.col {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-color: #00000038;
+}
+.card2 {
+  background-color: #000000;
+  margin: 10px;
+  height: 133%;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 75%;
+  margin: 10px;
+  background-color: transparent;
+}
+.card-header-cursos {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  margin: 9px;
+}
+.card-body-cursos{
+  width: 270px;
+  text-align: center;
+}
+
+.card-text-cursos{
+  color: wheat;
+  text-align: center;
+}
+
+.card-text-cursos2{
+  color: wheat;
+  text-align: center;
+}
+
+.titulo5{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 19.1rem;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+.row2{
+  width: 25%;
+    display: flex;
+}
+
+.card-cursos2{
+  background-color: black;
+}
+
+
 
 /*contactos*/
 .paralax-contactos {
@@ -673,15 +1014,12 @@ h6 {
 
 .container__formulario {
   display: flex;
-  justify-content: center;
-  background: linear-gradient(rgba(15, 15, 15, 0.05), rgba(15, 15, 15, 0.75));
 }
 
 fieldset {
-  background-color: rgba(0, 0, 0, 0.2784313725);
-  padding: 56px;
-  border-radius: 15px;
-  width: 345px;
+  padding: 100px;
+  width: 415px;
+  background-color: #00000000;
 }
 
 legend {
@@ -702,7 +1040,7 @@ label {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
   font-size: 14px;
-  color: #a39b9b;
+  color: #000000;
 }
 
 h4 {
@@ -729,8 +1067,12 @@ h5 {
   background: linear-gradient(rgba(15, 15, 15, 0), rgba(15, 15, 15, 0));
 }
 
+.ubicacion iframe{
+  width: 100%;
+}
+
 @media only screen and (max-width: 576px) {
-  /*index*/
+  /*INDEX*/
   header {
     width: 120%;
   }
@@ -778,6 +1120,41 @@ h5 {
   .titulo {
     width: 110%;
   }
+
+  .p_index {
+    padding: 6%;
+    font-size: 15px;
+  }
+
+  .titulo-predeterminado{
+    text-align: center;
+  }
+  .card-flex {
+    height: 190px;
+    width: 568px;
+}
+.card-header-index {
+  font-size: 13px;
+}
+.card-body-index {
+  width: 130px;
+  text-align: center;
+  padding: 15px;
+}
+.card-text:last-child {
+  margin-inline: 0px;
+}
+.texto-index{
+  padding: 10%;
+  font-size: 17px;
+  margin-top: 110px;
+}
+.titulo2 {
+  padding: 4%;
+  text-align: center;
+}
+
+
   .contenedor-youtube {
     grid-template-columns: inherit;
   }
@@ -787,6 +1164,7 @@ h5 {
     justify-items: center;
     align-items: flex-start;
     margin-inline: 28px;
+    margin-bottom: 170px;
     cursor: default;
     font-size: 20px;
     height: 1px;
@@ -797,14 +1175,12 @@ h5 {
   .col1 {
     display: flex;
     justify-content: center;
-    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    background-color: rgb(102, 94, 95);
-    color: white;
-    cursor: default;
-  }
+    font-size: 9px;
+    background-color: rgb(6 5 5);
+    margin: -30px;
+    margin-inline: 6px;
+}
   .reproductor {
     width: 153px;
   }
@@ -819,19 +1195,139 @@ h5 {
     margin-left: 9px;
     width: 40%;
   }
-  /*daw*/
+
+
+
+
+  /*DAW*/
   .container-daw {
     grid-template-columns: inherit;
   }
-  /*proyectos*/
+
+
+
+
+
+
+
+  /*ARTISTAS*/
   h1 {
     font-size: 35px;
     letter-spacing: 12px;
   }
-  /*cursos*/
+
+  .titulo-predeterminado-artistas2 {
+  margin-bottom: 205px;
+  text-align: center;
+  margin: 70px;
+}
+  .card-body-artistas {
+  width: 157px;
+  text-align: center;
+}
+  .card-title-artistas {
+  text-align: center;
+  font-size: 19px;
+}
+
+.card-artistas {
+  margin: 17px;
+}
+.titulo-predeterminado-artistas3 {
+  background-color: transparent;
+}
+
+.titulo4{
+  padding: 5%;
+  margin-top: 15.1rem;
+}
+
+  .container-grid-table-artistas {
+    display: grid;
+    justify-items: center;
+    cursor: default;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: -48px;
+}
+.container-grid-table-artistas .col1 {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  font: bold;
+  background-color: #484545;
+  height: 38%;
+  margin: 0;
+}
+.container-grid-table-artistas .col {
+  width: 99%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  background-color: rgb(224, 215, 215);
+  color: black;
+  cursor: default;
+  height: 100%;
+}
+
+  /*CURSOS*/
   .grid-canal-youtube {
     grid-template-columns: inherit;
   }
+
+  .card-flex {
+    height: 174px; 
+}
+.card2 {
+  background-color: #000000;
+  margin: 1px;
+  height: 184%;
+  text-align: center;
+}
+  .card-body-cursos {
+    width: 140px;
+    text-align: center;
+}
+
+.card-header-cursos {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+}
+.card-text-cursos{
+  background-color: #000000;
+}
+
+
+
+.card-cursos2 {
+  background-color: #000000;
+  width: 138px;
+  
+}
+
+.card-header-cursos2 {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+}
+.card-text-cursos2{
+  background-color: #000000;
+}
+
+.card-body-cursos2 {
+  margin-top: 65px;
+}
+.card-title-cursos2 {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.card-title-cursos2{
+font-size: 17px;
+}
 }
 
 /*# sourceMappingURL=estilos.css.map */
